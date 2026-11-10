@@ -1,0 +1,21 @@
+/* Tùy chỉnh bổ sung cho Bootstrap 5 */
+body { background: #f3f5f8; }
+
+#login .card { max-width: 420px; margin: 8vh auto 0; }
+
+.navbar input[type="date"] { width: 150px; }
+
+.nav-tabs { margin-bottom: 1rem; }
+.nav-tabs .nav-link { cursor: pointer; }
+
+.pane {
+  background: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: .5rem;
+  padding: 1rem 1.25rem;
+}
+.pane h5, .pane h6 { margin-bottom: .75rem; }
+
+.stat { font-size: 1.35rem; font-weight: 600; }
+
+.table td, .table th { white-space: nowrap; }

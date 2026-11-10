@@ -1,0 +1,146 @@
+{
+  "seq": {
+    "receipt": 1,
+    "customer": 1,
+    "supplier": 1,
+    "product": 3
+  },
+  "users": [
+    {
+      "username": "sales",
+      "password": "sales123",
+      "role": "SALES",
+      "active": true
+    },
+    {
+      "username": "stock",
+      "password": "stock123",
+      "role": "STOCK",
+      "active": true
+    },
+    {
+      "username": "tech",
+      "password": "tech123",
+      "role": "TECH",
+      "active": true
+    },
+    {
+      "username": "manager",
+      "password": "manager123",
+      "role": "MANAGER",
+      "active": true
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "sku": "A-128-DEN",
+      "name": "Điện thoại A 128GB Đen",
+      "kind": "PHONE",
+      "price": 10000000,
+      "warranty": 365,
+      "active": true
+    },
+    {
+      "id": 2,
+      "sku": "B-256-XANH",
+      "name": "Điện thoại B 256GB Xanh",
+      "kind": "PHONE",
+      "price": 7000000,
+      "warranty": 365,
+      "active": true
+    },
+    {
+      "id": 3,
+      "sku": "CAP-TYPEC",
+      "name": "Cáp sạc Type-C 1m",
+      "kind": "ACCESSORY",
+      "price": 200000,
+      "warranty": 30,
+      "active": true
+    }
+  ],
+  "units": [
+    {
+      "barcode": "A001",
+      "product_id": 1,
+      "receipt_id": 1,
+      "imei": "350000000000001",
+      "cost": 8000000,
+      "status": "AVAILABLE"
+    },
+    {
+      "barcode": "A002",
+      "product_id": 1,
+      "receipt_id": 1,
+      "imei": "350000000000002",
+      "cost": 8000000,
+      "status": "AVAILABLE"
+    },
+    {
+      "barcode": "B001",
+      "product_id": 2,
+      "receipt_id": 1,
+      "imei": "350000000000003",
+      "cost": 5500000,
+      "status": "AVAILABLE"
+    },
+    {
+      "barcode": "B002",
+      "product_id": 2,
+      "receipt_id": 1,
+      "imei": "350000000000004",
+      "cost": 5500000,
+      "status": "AVAILABLE"
+    },
+    {
+      "barcode": "C001",
+      "product_id": 3,
+      "receipt_id": 1,
+      "imei": null,
+      "cost": 100000,
+      "status": "AVAILABLE"
+    },
+    {
+      "barcode": "C002",
+      "product_id": 3,
+      "receipt_id": 1,
+      "imei": null,
+      "cost": 100000,
+      "status": "AVAILABLE"
+    },
+    {
+      "barcode": "C003",
+      "product_id": 3,
+      "receipt_id": 1,
+      "imei": null,
+      "cost": 100000,
+      "status": "AVAILABLE"
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Nguyễn Văn An",
+      "phone": "0901234567"
+    }
+  ],
+  "suppliers": [
+    {
+      "id": 1,
+      "name": "Công ty Phân phối ABC"
+    }
+  ],
+  "receipts": [
+    {
+      "id": 1,
+      "supplier_id": 1,
+      "staff": "stock",
+      "date": "2026-11-09"
+    }
+  ],
+  "sales": [],
+  "returns": [],
+  "warranties": [],
+  "audit": []
+}

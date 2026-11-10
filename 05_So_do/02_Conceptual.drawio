@@ -1,0 +1,221 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="02_Conceptual" name="Mô hình khái niệm">
+    <mxGraphModel dx="1428" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="564" pageHeight="874" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="P" parent="1" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;rounded=0;fillColor=#FFFFFF;strokeColor=#334155;fontFamily=Helvetica;fontSize=14;spacing=9;" value="&lt;b&gt;Sản phẩm&lt;/b&gt;&lt;hr&gt;&lt;div style=&quot;text-align:left&quot;&gt;sku&lt;br&gt;tên cấu hình&lt;br&gt;loại&lt;br&gt;giá hiện hành&lt;br&gt;số ngày bảo hành&lt;/div&gt;" vertex="1">
+          <mxGeometry height="128.0016" width="145.0008" x="173.4996" y="173.9992" as="geometry" />
+        </mxCell>
+        <mxCell id="U" parent="1" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;rounded=0;fillColor=#FFFFFF;strokeColor=#334155;fontFamily=Helvetica;fontSize=14;spacing=9;" value="&lt;b&gt;Đơn vị hàng&lt;/b&gt;&lt;hr&gt;&lt;div style=&quot;text-align:left&quot;&gt;mã nội bộ&lt;br&gt;IMEI tùy loại&lt;br&gt;giá nhập&lt;br&gt;trạng thái&lt;/div&gt;" vertex="1">
+          <mxGeometry height="112.9968" width="113.99759999999999" x="154.0012" y="373.0016" as="geometry" />
+        </mxCell>
+        <mxCell id="R" parent="1" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;rounded=0;fillColor=#FFFFFF;strokeColor=#334155;fontFamily=Helvetica;fontSize=14;spacing=9;" value="&lt;b&gt;Phiếu nhập&lt;/b&gt;&lt;hr&gt;&lt;div style=&quot;text-align:left&quot;&gt;ngày nhập&lt;/div&gt;" vertex="1">
+          <mxGeometry height="67.99968" width="108" x="29" y="204.00016" as="geometry" />
+        </mxCell>
+        <mxCell id="V" parent="1" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;rounded=0;fillColor=#FFFFFF;strokeColor=#334155;fontFamily=Helvetica;fontSize=14;spacing=9;" value="&lt;b&gt;Nhà cung cấp&lt;/b&gt;&lt;hr&gt;&lt;div style=&quot;text-align:left&quot;&gt;tên&lt;/div&gt;" vertex="1">
+          <mxGeometry height="67.99968" width="126" x="20" y="27.50016" as="geometry" />
+        </mxCell>
+        <mxCell id="S" parent="1" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;rounded=0;fillColor=#FFFFFF;strokeColor=#334155;fontFamily=Helvetica;fontSize=14;spacing=9;" value="&lt;b&gt;Giao dịch bán&lt;/b&gt;&lt;hr&gt;&lt;div style=&quot;text-align:left&quot;&gt;ngày bán&lt;br&gt;trạng thái&lt;/div&gt;" vertex="1">
+          <mxGeometry height="83.0016" width="126" x="355" y="196.4992" as="geometry" />
+        </mxCell>
+        <mxCell id="L" parent="1" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;rounded=0;fillColor=#FFFFFF;strokeColor=#334155;fontFamily=Helvetica;fontSize=14;spacing=9;" value="&lt;b&gt;Dòng bán&lt;/b&gt;&lt;hr&gt;&lt;div style=&quot;text-align:left&quot;&gt;giá chốt&lt;br&gt;giảm giá&lt;br&gt;tên và SKU khi bán&lt;br&gt;số ngày bảo hành chốt&lt;/div&gt;" vertex="1">
+          <mxGeometry height="112.9968" width="180" x="185" y="557.0016" as="geometry" />
+        </mxCell>
+        <mxCell id="C" parent="1" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;rounded=0;fillColor=#FFFFFF;strokeColor=#334155;fontFamily=Helvetica;fontSize=14;spacing=9;" value="&lt;b&gt;Khách hàng&lt;/b&gt;&lt;hr&gt;&lt;div style=&quot;text-align:left&quot;&gt;tên&lt;br&gt;thông tin liên hệ&lt;/div&gt;" vertex="1">
+          <mxGeometry height="83.0016" width="135" x="350.5" y="19.999200000000002" as="geometry" />
+        </mxCell>
+        <mxCell id="N" parent="1" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;rounded=0;fillColor=#FFFFFF;strokeColor=#334155;fontFamily=Helvetica;fontSize=14;spacing=9;" value="&lt;b&gt;Nhân viên&lt;/b&gt;&lt;hr&gt;&lt;div style=&quot;text-align:left&quot;&gt;tên đăng nhập&lt;br&gt;vai trò&lt;/div&gt;" vertex="1">
+          <mxGeometry height="83.0016" width="122.99759999999999" x="187.5012" y="19.999200000000002" as="geometry" />
+        </mxCell>
+        <mxCell id="M" parent="1" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;rounded=0;fillColor=#FFFFFF;strokeColor=#334155;fontFamily=Helvetica;fontSize=14;spacing=9;" value="&lt;b&gt;Thanh toán&lt;/b&gt;&lt;hr&gt;&lt;div style=&quot;text-align:left&quot;&gt;số tiền thực thu&lt;br&gt;tiền khách đưa&lt;br&gt;tiền thừa&lt;/div&gt;" vertex="1">
+          <mxGeometry height="97.9992" width="130.0032" x="433.9984" y="380.5004" as="geometry" />
+        </mxCell>
+        <mxCell id="T" parent="1" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;rounded=0;fillColor=#FFFFFF;strokeColor=#334155;fontFamily=Helvetica;fontSize=14;spacing=9;" value="&lt;b&gt;Phiếu trả&lt;/b&gt;&lt;hr&gt;&lt;div style=&quot;text-align:left&quot;&gt;ngày trả&lt;br&gt;lý do&lt;br&gt;tiền hoàn&lt;/div&gt;" vertex="1">
+          <mxGeometry height="97.9992" width="93.00240000000001" x="151.4988" y="748.5004" as="geometry" />
+        </mxCell>
+        <mxCell id="W" parent="1" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;rounded=0;fillColor=#FFFFFF;strokeColor=#334155;fontFamily=Helvetica;fontSize=14;spacing=9;" value="&lt;b&gt;Phiếu bảo hành&lt;/b&gt;&lt;hr&gt;&lt;div style=&quot;text-align:left&quot;&gt;ngày nhận&lt;br&gt;trạng thái&lt;br&gt;mô tả lỗi&lt;br&gt;ghi chú&lt;/div&gt;" vertex="1">
+          <mxGeometry height="112.9968" width="141.9984" x="281.0008" y="741.0016" as="geometry" />
+        </mxCell>
+        <mxCell id="edge0" edge="1" parent="1" source="P" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#FFFFFF;endArrow=none;" target="U" value="mô tả">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e0m0" connectable="0" parent="edge0" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;fontSize=12;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.85" y="-1" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e0m1" connectable="0" parent="edge0" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;fontSize=12;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.85" y="-1" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge1" edge="1" parent="1" source="V" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#FFFFFF;endArrow=none;" target="R" value="cung cấp">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1m0" connectable="0" parent="edge1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;fontSize=12;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.85" y="-1" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e1m1" connectable="0" parent="edge1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;fontSize=12;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.85" y="-1" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge2" edge="1" parent="1" source="R" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#FFFFFF;endArrow=none;" target="U" value="nguồn nhập">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="83" y="429.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2m0" connectable="0" parent="edge2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;fontSize=12;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.85" y="-1" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2m1" connectable="0" parent="edge2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;fontSize=12;" value="1..*" vertex="1">
+          <mxGeometry relative="1" x="0.85" y="-1" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge3" edge="1" parent="1" source="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#FFFFFF;endArrow=none;" target="R" value="ghi nhận">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="61.5" />
+              <mxPoint x="160" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3m0" connectable="0" parent="edge3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;fontSize=12;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.85" y="-1" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3m1" connectable="0" parent="edge3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;fontSize=12;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.8392" y="-1" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge4" edge="1" parent="1" source="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#FFFFFF;endArrow=none;" target="S" value="lập">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="61.5" />
+              <mxPoint x="340" y="238" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4m0" connectable="0" parent="edge4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;fontSize=12;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.8371" y="-1" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4m1" connectable="0" parent="edge4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;fontSize=12;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.85" y="-1" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge5" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#FFFFFF;endArrow=none;" value="mua">
+          <mxGeometry relative="1" x="0.2959" y="20" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="400" y="103" />
+              <mxPoint x="410" y="103" />
+              <mxPoint x="410" y="100" />
+              <mxPoint x="400" y="100" />
+              <mxPoint x="400" y="196.5" />
+            </Array>
+            <mxPoint x="400" y="180" as="sourcePoint" />
+            <mxPoint x="435" y="196.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5m0" connectable="0" parent="edge5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;fontSize=12;" value="0..1" vertex="1">
+          <mxGeometry relative="1" x="-0.2147" y="-1" as="geometry">
+            <mxPoint x="9" y="21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5m1" connectable="0" parent="edge5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;fontSize=12;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.8488" y="-1" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge6" edge="1" parent="1" source="S" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#FFFFFF;startArrow=diamond;startFill=1;endArrow=none;" target="L" value="gồm">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6m0" connectable="0" parent="edge6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;fontSize=12;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.85" y="-1" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6m1" connectable="0" parent="edge6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;fontSize=12;" value="1..*" vertex="1">
+          <mxGeometry relative="1" x="0.85" y="-1" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge7" edge="1" parent="1" source="U" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#FFFFFF;endArrow=none;" target="L" value="được bán tại">
+          <mxGeometry relative="1" x="-0.0444" y="-18" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="160" y="610" />
+              <mxPoint x="160" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7m0" connectable="0" parent="edge7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;fontSize=12;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.85" y="-1" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7m1" connectable="0" parent="edge7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;fontSize=12;" value="0..1" vertex="1">
+          <mxGeometry relative="1" x="0.85" y="-1" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge8" edge="1" parent="1" source="S" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#FFFFFF;startArrow=diamond;startFill=1;endArrow=none;" target="M" value="được thanh toán">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8m0" connectable="0" parent="edge8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;fontSize=12;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.85" y="-1" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8m1" connectable="0" parent="edge8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;fontSize=12;" value="0..1" vertex="1">
+          <mxGeometry relative="1" x="0.85" y="-1" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge9" edge="1" parent="1" source="L" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#FFFFFF;endArrow=none;" target="T" value="được trả qua">
+          <mxGeometry relative="1" x="-0.0444" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9m0" connectable="0" parent="edge9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;fontSize=12;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.85" y="-1" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9m1" connectable="0" parent="edge9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;fontSize=12;" value="0..1" vertex="1">
+          <mxGeometry relative="1" x="0.85" y="-1" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge10" edge="1" parent="1" source="L" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=12;labelBackgroundColor=#FFFFFF;endArrow=none;" target="W" value="được bảo hành qua">
+          <mxGeometry relative="1" x="0.3581" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10m0" connectable="0" parent="edge10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;fontSize=12;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.85" y="-1" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10m1" connectable="0" parent="edge10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;fontSize=12;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="0.85" y="-1" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
